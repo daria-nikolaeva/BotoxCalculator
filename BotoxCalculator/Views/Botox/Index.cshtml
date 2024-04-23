@@ -1,0 +1,29 @@
+﻿@model BotoxCalculatorModel
+
+<form asp-controller="Botox" asp-action="Calculate" method="post">
+    <div>
+        <label for="UnitsCount">Количество единиц в препарате:</label>
+        <input type="number" id="UnitsCount" name="UnitsCount" required />
+    </div>
+    <div>
+        <label for="DilutionVolume">Объем разведения, мл:</label>
+        <input type="number" id="DilutionVolume" name="DilutionVolume" step="0.01" required />
+    </div>
+    <div>
+        <label for="SyringeVolume">Объем шприца:</label>
+        <select id="SyringeVolume" name="SyringeVolume">
+            <option value="1.0">U-100 (1 мл)</option>
+            <option value="0.3">U-30 (0.3 мл)</option>
+            <option value="0.5">U-50 (0.5 мл)</option>
+        </select>
+    </div>
+    <button type="submit">Рассчитать</button>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <div>
+        <h2>Результат:</h2>
+        <p>@ViewBag.Result</p>
+    </div>
+}

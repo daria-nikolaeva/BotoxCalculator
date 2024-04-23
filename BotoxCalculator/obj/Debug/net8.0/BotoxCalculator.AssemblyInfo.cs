@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BotoxCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c58db810b1ce43b13db8c644481163acdef2c1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0c0f95233f4ef504c5e399df3564c8e1cd8da30")]
 [assembly: System.Reflection.AssemblyProductAttribute("BotoxCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BotoxCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

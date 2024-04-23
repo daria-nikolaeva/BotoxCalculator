@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BotoxCalculator/.vs/BotoxCalculator/FileContentIndex/1cd2c4f5-6ed3-4bea-8103-c86d29bed2ae.vsidx
+*.vsidx
